@@ -1,0 +1,99 @@
+# Number Guessing Game
+
+A console number guessing game written in C++. The computer picks a random number, and the player tries to guess it using "too big" / "too small" hints.
+
+## How to play
+
+1. Choose a difficulty:
+   - `1` - easy (number from 1 to 50)
+   - `2` - medium (from 1 to 100)
+   - `3` - hard (from 1 to 500)
+   - `0` - exit
+2. Enter numbers until you guess the right one.
+3. After each attempt the program tells you whether your number is bigger or smaller than the secret one.
+
+## Example
+
+```
+Welcome
+
+ choice diff
+
+ easy(1-50) - 1
+ medium(1-100) - 2
+ hard(1-500) - 3
+ exit - 0
+2
+guess the number:
+
+50
+too small
+75
+too big
+62
+yeap
+```
+
+## How to run
+
+- **Visual Studio:** open `numberGuessing.slnx` and press `Ctrl+F5`.
+- **g++:** `g++ -std=c++20 numberGuessing.cpp -o game`, then `./game`
+  (on Windows: `game.exe`)
+
+## What I practiced
+
+- random number generation (`<random>`, `std::mt19937`)
+- branching with `if / else if / else` and `switch`
+- `while` loops and leaving them with `break`
+- validating user input
+
+
+
+
+# Number Guessing Game
+
+Консольная игра «Угадай число» на C++. Компьютер загадывает число, а игрок угадывает его по подсказкам «слишком много» и «слишком мало».
+
+## Как играть
+
+1. Выбери сложность:
+   - `1` — лёгкая (число от 1 до 50)
+   - `2` — средняя (от 1 до 100)
+   - `3` — сложная (от 1 до 500)
+   - `0` — выход
+2. Вводи числа, пока не угадаешь.
+3. Программа подсказывает, больше твоё число загаданного или меньше.
+
+## Пример
+
+```
+Welcome
+
+ choice diff
+
+ easy(1-50) - 1
+ medium(1-100) - 2
+ hard(1-500) - 3
+ exit - 0
+2
+guess the number:
+
+50
+too small
+75
+too big
+62
+yeap
+```
+
+## Запуск
+
+- **Visual Studio:** открыть `numberGuessing.slnx`, нажать `Ctrl+F5`.
+- **g++:** `g++ -std=c++20 numberGuessing.cpp -o game` и `./game`
+
+## Чему научился на этом проекте
+
+- генерация случайных чисел (`<random>`, `std::mt19937`)
+- ветвления `if / else if / else` и `switch`
+- циклы `while` и выход из них через `break`
+- проверка ввода пользователя
