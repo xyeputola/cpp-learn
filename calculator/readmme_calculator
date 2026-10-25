@@ -1,0 +1,52 @@
+# C++ Calculator
+
+My first C++ project - a simple console calculator
+
+## Features
+
+- Addition
+- Subtraction
+- Multiplication
+- Division
+- Input validation
+- Division by zero check
+
+## Technologies
+
+- C++
+- Standard Library (<iostream>)
+
+## How to Run
+
+1 Open the project in Visual Studio
+2 Build the project
+3 Run the calculator
+
+
+
+
+
+ru
+# Калькулятор на C++
+
+Мой первый проект на C++ - простой консольный калькулятор
+
+## Функциональные возможности
+
+- Сложение
+- Вычитание
+- Умножение
+- Деление
+- Проверка корректности ввода
+- Проверка деления на ноль
+
+## Технологии
+
+- C++
+- Стандартная библиотека (<iostream>)
+
+## Как запустить
+
+1 Откройте проект в Visual Studio
+2 Скомпилируйте проект
+3 Запустите калькулятор
