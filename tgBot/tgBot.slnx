@@ -1,0 +1,7 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="tgBot.vcxproj" Id="55596f98-720c-46ad-aacd-b1bd3701869c" />
+</Solution>
